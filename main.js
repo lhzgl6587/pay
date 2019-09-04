@@ -11,7 +11,7 @@ function inUA(s){
 }
 
 if(inUA(wechat)){
-    window.location.href="static/wechat.html";
+    window.location.href="wxp://f2f0Lka8TpjVtBY9FYKXNl-hFyzAWHtX3N_s";
 }else if(inUA(alipay)){
     window.location.href=alipayURL;
 }else if(inUA(qqBrowser)){
