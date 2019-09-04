@@ -1,18 +1,17 @@
 alipayURL="https://qr.alipay.com/fkx083911wgebne1gstmb2e";
-wechatURL="wxp://f2f0Lka8TpjVtBY9FYKXNl-hFyzAWHtX3N_s"
 wechat="MicroMessenger";
 alipay="AlipayClient";
 qqBrowser="MQQBrowser";
 userAgent=navigator.userAgent;
-qqSwitch=true;
-timSwitch=true;
+qqSwitch=false;
+timSwitch=false;
 
 function inUA(s){
     return userAgent.indexOf(s)!=-1
 }
 
 if(inUA(wechat)){
-    window.location.href=wechatURL;
+    window.location.href="static/wechat.html";
 }else if(inUA(alipay)){
     window.location.href=alipayURL;
 }else if(inUA(qqBrowser)){
