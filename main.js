@@ -1,4 +1,5 @@
 alipayURL="https://qr.alipay.com/fkx083911wgebne1gstmb2e";
+wechatURL="wxp://f2f0Lka8TpjVtBY9FYKXNl-hFyzAWHtX3N_s"
 wechat="MicroMessenger";
 alipay="AlipayClient";
 qqBrowser="MQQBrowser";
